@@ -34,6 +34,8 @@ gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 
+# Strict usage of Faye
+gem 'faye-websocket', '0.10.0'
 # Web Sockets
 gem 'websocket-rails'
 

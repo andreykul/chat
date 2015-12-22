@@ -9,5 +9,5 @@ html
   body
     .container
       - flash.each do |type, msg|
-        = alert_box msg, context: type, dismissable: true
+        = alert_box msg, context: type, dismissible: true
       = yield

@@ -1,2 +1,15 @@
-h1 Chat#index
-p Find me in app/views/chat/index.html.slim
+h1.page-header Chat
+.row
+  .col-xs-9
+    = panel
+      ul#chat.list-unstyled
+        = render @messages
+    form#send-message
+      .input-group
+        input#message type="text" class="form-control" autofocus=''
+        .input-group-btn
+          button.btn.btn-default type="submit" = icon 'paper-plane'
+    
+  .col-xs-3
+    = panel title: 'Users'
+      ul#users.list-unstyled

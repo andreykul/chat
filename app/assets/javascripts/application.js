@@ -17,4 +17,9 @@
 //= require turbolinks
 //= require_tree .
 
+var ws = new WebSocketRails('localhost:3000/websocket');
 
+ws.on_open = function(data) {
+  console.log('Connection has been established: ', data);
+  // You can trigger new server events inside this callback if you wish.
+}
