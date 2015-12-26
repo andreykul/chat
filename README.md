@@ -12,6 +12,6 @@ Gems List:
 - [Letter Opener](https://github.com/ryanb/letter_opener) : Preview of emails
 
 ###Note
-Websocket-Rails is dead due to up coming Rails 5 which includes Active Cable (Web Sockets), Thus is you are to use the gem you must set faye to version 0.10.0, otherwise websocket-rails will not work.
+Websocket-Rails is dead due to up coming Rails 5 which includes Action Cable (Web Sockets), Thus is you are to use the gem you must set faye to version 0.10.0, otherwise websocket-rails will not work.
 
     gem 'faye-websocket', '0.10.0'
